@@ -29,49 +29,13 @@ Example:
 	</modules>
 
 
-TEST HARNESS EXAMPLE FOR YOUR MODULE
-------------------------------------
 
-The `example` directory contains a skeleton application test harness that can be
-used for testing and providing an example of usage to the users of your module.
-
-
-BUILDING YOUR MODULE
---------------------
 
 var useragent = require('com.abada.useragent');
+
 useragent.setWebViewUserAgent('WHAT YOU WANT');
 
-INSTALL YOUR MODULE
--------------------
-
-Mac OS X
---------
-Copy the distribution zip file into the `~/Library/Application Support/Titanium` folder
-
-Linux
------
-Copy the distribution zip file into the `~/.titanium` folder
-
-Windows
--------
-Copy the distribution zip file into the `C:\ProgramData\Titanium` folder
-
-
-REGISTER YOUR MODULE
---------------------
-
-Register your module with your application by editing `tiapp.xml` and adding your module.
-Example:
-
-<modules>
-	<module version="0.1">com.abada.useragent</module>
-</modules>
-
-When you run your project, the compiler will combine your module along with its dependencies
-and assets into the application.
-
-
+ 
 ###NOTICE
 
 **You must set your UserAgent String before showing a Ti.UI.WebView object at your Window.**
