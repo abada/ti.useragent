@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: useragent
+author: abada henno
+license: Specify your license
+copyright: Copyright (c) 2016 by abada henno
+
+# these should not be edited
+name: useragent
+moduleid: com.abada.useragent
+guid: 6ae8ad97-d47f-4eb1-90de-335889158fcd
+platform: iphone
+minsdk: 5.4.0.GA
