@@ -30,12 +30,12 @@ Example:
 
 
 
+``` 
+  var useragent = require('com.abada.useragent');
 
-var useragent = require('com.abada.useragent');
+  useragent.setWebViewUserAgent('WHAT YOU WANT');
+```
 
-useragent.setWebViewUserAgent('WHAT YOU WANT');
-
- 
 ###NOTICE
 
 **You must set your UserAgent String before showing a Ti.UI.WebView object at your Window.**
